@@ -35,7 +35,7 @@ sudo -v ; curl https://rclone.org/install.sh | sudo bash
 
 ---
 
-## 2. How Authentication Works
+## 2. Authentication Setup (One-Time)
 
 This pipeline has been designed to be incredibly easy to run on any machine without complex authentication wizards.
 
@@ -45,7 +45,7 @@ Instead of requiring each user to log into their personal Google account, we use
 To run the sync script, you need **three things**:
 1. A `.env` file containing the robot account's credentials. (The project administrator will provide this file directly to you).
 2. The URL of the Google Drive folder you want to sync.
-3. **Share the Drive folder with the Service Account email.** This is *not* someone's personal Google account — it's a special email generated when the Service Account was created, in the form:
+3. **Share the Drive folder with the Service Account email.** This is *not* the dummy user's personal email — it's a special email generated when the Service Account was created, in the form:
    ```
    <name>@<project-id>.iam.gserviceaccount.com
    ```
