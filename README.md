@@ -42,9 +42,14 @@ This pipeline has been designed to be incredibly easy to run on any machine with
 Instead of requiring each user to log into their personal Google account, we use a **Google Cloud Service Account** (a "dummy/robot account"). We simply share the target Google Drive folder with this robot account, and the robot downloads the files for us!
 
 ### What you need to do:
-To run the sync script, you only need **two things**:
+To run the sync script, you need **three things**:
 1. A `.env` file containing the robot account's credentials. (The project administrator will provide this file directly to you).
 2. The URL of the Google Drive folder you want to sync.
+3. **Share the Drive folder with the Service Account email.** This is *not* someone's personal Google account — it's a special email generated when the Service Account was created, in the form:
+   ```
+   <name>@<project-id>.iam.gserviceaccount.com
+   ```
+   You can find this email in the credentials JSON under the `client_email` field. Share the target Drive folder with this email as a **Viewer**.
 
 Simply place the `.env` file in the exact same directory as the Python scripts. The script will automatically parse the credentials and securely pass them to `rclone` in the background. **No manual `rclone config` setup is required!**
 
@@ -57,7 +62,7 @@ Run the sync script to pull down files from Google Drive. It will automatically 
 
 **Synopsis:**
 ```bash
-python3 sync_from_drive.py <gdrive_folder_url> <local_download_dir>
+python3 sync_from_drive.py <drive_link> <dest>
 ```
 
 **Example:**
