@@ -20,9 +20,9 @@ sudo apt-get install -y poppler-utils libreoffice tesseract-ocr
 ```
 
 ### Python Dependencies
-Install the required Python packages for Excel parsing and the OCR wrapper:
+Install the required Python packages: `python-dotenv` (for loading credentials), `openpyxl` (for Excel parsing), and the OCR wrappers.
 ```bash
-pip install openpyxl pytesseract Pillow --break-system-packages
+pip install python-dotenv openpyxl pytesseract Pillow --break-system-packages
 ```
 
 ### Rclone Installation
@@ -35,27 +35,18 @@ sudo -v ; curl https://rclone.org/install.sh | sudo bash
 
 ---
 
-## 2. Rclone Configuration (Important)
+## 2. Authentication Setup (Zero-Config)
 
-For the `sync_from_drive.py` script to work, it **strictly expects** an `rclone` remote to be configured and named exactly: **`acad_material`**.
+This pipeline has been designed to be incredibly easy to run on any machine without complex authentication wizards.
 
-Follow these exact steps to configure it on your machine:
+Instead of requiring each user to log into their personal Google account, we use a **Google Cloud Service Account** (a "dummy/robot account"). We simply share the target Google Drive folder with this robot account, and the robot downloads the files for us!
 
-1. Run the interactive config wizard:
-   ```bash
-   rclone config
-   ```
-2. Type `n` for a New remote.
-3. Name it exactly: `acad_material`
-4. For Storage Type, look for "Google Drive" in the list and enter its corresponding number.
-5. Leave "Client ID" and "Client Secret" blank (press Enter).
-6. For Scope, choose `1` (Full access).
-7. Leave "Service Account file" blank (press Enter).
-8. When asked "Edit advanced config?", enter `n`.
-9. When asked "Use auto config?", enter `y`. Your web browser will open.
-10. Log in to your Google Account and grant rclone access.
-11. When asked if this is a Shared Drive (Team Drive), answer `n` (unless the target is explicitly a shared workspace drive).
-12. Confirm the configuration and press `q` to quit.
+### What you need to do:
+To run the sync script, you only need **two things**:
+1. A `.env` file containing the robot account's credentials. (The project administrator will provide this file directly to you).
+2. The URL of the Google Drive folder you want to sync.
+
+Simply place the `.env` file in the exact same directory as the Python scripts. The script will automatically parse the credentials and securely pass them to `rclone` in the background. **No manual `rclone config` setup is required!**
 
 ---
 
@@ -66,13 +57,13 @@ Run the sync script to pull down files from Google Drive. It will automatically 
 
 **Synopsis:**
 ```bash
-python3 sync_from_drive.py <gdrive_folder_name> <local_download_dir>
+python3 sync_from_drive.py <gdrive_folder_url> <local_download_dir>
 ```
 
 **Example:**
-If the folder on Google Drive is named `docs_for_hackenza` and you want to download them into a local folder named `raw_data`:
+If the folder's URL on Google Drive is `https://drive.google.com/drive/folders/1B2a3...` and you want to download the files into a local folder named `raw_data`:
 ```bash
-python3 sync_from_drive.py "docs_for_hackenza" ./raw_data
+python3 sync_from_drive.py "https://drive.google.com/drive/folders/1B2a3..." ./raw_data
 ```
 
 ### Step 2: Convert Downlaoded Files to TXT
