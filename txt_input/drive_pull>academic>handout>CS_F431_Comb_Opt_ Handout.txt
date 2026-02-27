@@ -1,0 +1,88 @@
+                Birla Institute of Technology and Science Pilani
+                                        K.K. Birla Goa Campus
+                                      AY 2025–26, Semester II
+
+ Course Handout (Part-II) for Combinatorial Optimization (CS F431)
+
+ Course: Combinatorial Optimization (CS F431)
+ Instructor-in-charge: Dr. Diptendu Chatterjee (diptenduc@goa.bits-pilani.ac.in) (Chamber : D264)
+
+
+ This document is Part II of the handout for Combinatorial Optimization (CS F431). You can find
+ Part I of the handout appended to the timetable for the current semester. Part-I contains the general
+ operational details for all the courses.
+
+ Prerequisite: Preferably Data Structures and Algorithms / Foundations of Data Structures and Algorithms.
+
+ Course Objectives:
+
+    • Learn about the identification, formulation, and mathematical foundation of combinatorial optimization.
+    • Analyzing the hardness of different combinatorial optimization problems and categorizing them.
+    • learn various algorithmic approaches to solve or approximate some of the combinatorial optimization problems.
+
+ Text Book(s)/ Reference Book(s):
+
+    B1 Combinatorial Optimization: Algorithms and Complexity by Christos H. Papadimitriou
+    and Kenneth Steiglitz, Publisher: Prentice-Hall of India Pvt. Ltd. 2003.
+    R1 Combinatorial Optimization: Theory and Algorithms by Bernhard Korte and Jens Vygen, (6th
+    Editon) Publisher: Springer.
+
+
+Makeup Policy:
+
+          •   Permission of the Instructor-in-Charge is required to take a make-up.
+          •   Make-up applications must be personally given to the instructor in charge.
+          •   A make-up test shall be granted only in genuine cases where, in the Instructor’s judgment, the
+              student would be virtually or physically unable to appear for the test.
+          •   In case of an unanticipated illness preventing a student from appearing for a test, the student must
+              present a Medical Certificate from the medical center.
+
+
+Requests for make-up for the comprehensive examination under any circumstances can only be made to
+In-charge, the Instruction Division.
+
+
+
+
+                                                      1
+Course Plan:
+
+
+
+
+   No. of                              Topics                                       Reference
+  Lectures
+             Module 1: Introduction
+    2        Optimization Problems                                                 B1 Chapter 1
+    2        Combinatorics (Basics)                                                Lecture Notes
+    2        Graphs (Basics)                                              Lecture Notes and R1 Chapter 2
+    2        Linear Algebra (Basics)                                               Lecture Notes
+             Module 2: LP and ILP
+    4        Formation of LP, Feasibility, Linear and Affine space        B1 Chapter 2 and R1 Chapter 3
+    1        Duality                                                      B1 Chapter 3 and R1 Chapter 3
+    2        ILP and Hardness                                            B1 Chapter 13 and R1 Chapter 5
+    3        Module 3: Path Optimization                                          R1 Chapter 7
+    3        Module 4: Flow Optimization                                          R1 Chapter 8
+    3        Module 5: Matching Problems                                B1 Chapter 10-11, R1 Chapter 10-11
+    3        Module 6: NP-Completeness                                          B1 Chapter 15-16
+    3        Module 7: Approximation Algorithms                          B1 Chapter 17 and R1 Chapter 16
+    3        Module 8: Bin Packing Problems                                     R1 Chapter 17-18
+    3        Module 9: Travelling Salesman Problem                                R1 Chapter 21
+    3        Module 10: Matroids                                                 R1 Chapter 13
+Evaluation Scheme:
+
+
+  Component                                                          Percentage            Date
+  Quizzes                                                               40%                TBA
+  Mid-semester Exam                                                     30%       10.3.26 (4 PM – 5:30 PM)
+  Comprehensive Exam                                                    30%            7.5.25 (AN)
+
+
+
+Chamber Consultation Hours: To be announced in the class.
+
+
+
+
+                                                     2
+
