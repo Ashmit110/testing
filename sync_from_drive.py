@@ -64,13 +64,13 @@ def main() -> None:
         description="Syncs a Google Drive folder to a local directory using a Service Account."
     )
     parser.add_argument(
-        "gdrive_folder_id", 
-        help="The Google Drive Folder ID to sync (found in the URL: drive.google.com/drive/folders/<ID>)."
+        "drive_link", 
+        help="Google Drive link or folder/file ID to sync (e.g. 'https://drive.google.com/drive/folders/abc123' or just 'abc123')."
     )
-    parser.add_argument("local_root", help="Local directory to sync Google Drive files into")
+    parser.add_argument("dest", help="Local destination directory to sync files into.")
     args = parser.parse_args()
 
-    local_root = Path(args.local_root).resolve()
+    local_root = Path(args.dest).resolve()
 
     # Load environment variables from .env file
     load_dotenv()
@@ -82,7 +82,7 @@ def main() -> None:
         sys.exit(1)
 
     # If the user passed a full URL, extract just the ID part using regex
-    folder_input = args.gdrive_folder_id
+    folder_input = args.drive_link
     match = re.search(r'file/d/([a-zA-Z0-9_-]+)|folders/([a-zA-Z0-9_-]+)|id=([a-zA-Z0-9_-]+)', folder_input)
     if match:
         folder_id = next(g for g in match.groups() if g)
