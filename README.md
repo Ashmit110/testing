@@ -35,7 +35,7 @@ sudo -v ; curl https://rclone.org/install.sh | sudo bash
 
 ---
 
-## 2. Authentication Setup (Zero-Config)
+## 2. How Authentication Works
 
 This pipeline has been designed to be incredibly easy to run on any machine without complex authentication wizards.
 
