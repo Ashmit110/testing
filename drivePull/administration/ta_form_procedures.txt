@@ -1,0 +1,127 @@
+================================================================
+        TEACHING ASSISTANT (TA) FORM PROCEDURES GUIDE
+        Department of Computer Science & Engineering
+        Academic Year 2024-2025
+================================================================
+
+OVERVIEW
+--------
+This document outlines the complete procedures for submitting, processing, and
+managing all Teaching Assistant-related forms within the department. All TAs,
+faculty supervisors, and administrative staff must adhere to these procedures to
+ensure timely processing of appointments, payments, and academic records.
+
+----------------------------------------------------------------
+SECTION 1: TA APPOINTMENT FORM (TAF-001)
+----------------------------------------------------------------
+Purpose:
+  The TA Appointment Form is the primary document used to officially assign a
+  graduate or undergraduate student to a Teaching Assistant role for a given
+  semester.
+
+Required Fields:
+  - Full legal name of the TA (as it appears on university records)
+  - Student ID number (9-digit format: XXXXXXXXX)
+  - Program of enrollment (MS, PhD, UG Honors)
+  - Course number and section being supported (e.g., CS 5012-001)
+  - Supervising faculty member's name and employee ID
+  - Appointment type: Full TA (20 hrs/week) or Half TA (10 hrs/week)
+  - Start date and end date of appointment
+  - Stipend amount per month (must match department pay scale)
+  - Tuition waiver status: Full / Partial / None
+
+Submission Process:
+  Step 1 — TA and supervising faculty both sign the printed form.
+  Step 2 — Faculty supervisor submits the signed form to the Graduate Coordinator
+            no later than 15 days before the semester start date.
+  Step 3 — Graduate Coordinator reviews for completeness and forwards to the
+            Registrar's Office within 3 business days.
+  Step 4 — Registrar issues a confirmation email to the TA and faculty within
+            5 business days of receiving the form.
+  Step 5 — HR processes the appointment for payroll enrollment. TA must complete
+            I-9 and W-4 forms if it is their first appointment.
+
+Common Errors to Avoid:
+  - Leaving the course section blank (causes processing delays of up to 2 weeks)
+  - Mismatched stipend amounts not aligned with the current pay scale matrix
+  - Missing second signature (form is returned immediately if unsigned)
+  - Incorrect appointment dates spanning across two academic years
+
+----------------------------------------------------------------
+SECTION 2: TA DUTY MODIFICATION FORM (TAF-002)
+----------------------------------------------------------------
+Purpose:
+  Used when there is a change in a TA's assigned duties, hours, or course
+  assignment after the original appointment has been confirmed.
+
+When to Submit:
+  - Change in weekly hours (e.g., from 10 hrs to 20 hrs)
+  - Transfer of TA support from one course to another
+  - Addition of a co-TA to the same course
+  - Removal of TA duties mid-semester due to academic probation
+
+Deadline:
+  Must be submitted within 7 calendar days of the change taking effect.
+  Retroactive modifications older than 30 days will not be accepted without a
+  written appeal to the Department Chair.
+
+Required Attachments:
+  - Original TAF-001 confirmation email
+  - Brief justification memo (max 300 words) signed by faculty supervisor
+  - Updated schedule of duties (template available on department portal)
+
+----------------------------------------------------------------
+SECTION 3: TA PERFORMANCE EVALUATION FORM (TAF-003)
+----------------------------------------------------------------
+Purpose:
+  Submitted by the supervising faculty at the end of each semester to evaluate
+  the TA's performance. Required for renewal of appointment in subsequent terms.
+
+Evaluation Categories (each scored 1–5):
+  - Attendance and punctuality at lab/recitation sessions
+  - Quality of grading and feedback provided to students
+  - Responsiveness to student queries (office hours, email)
+  - Preparation and delivery of instructional content
+  - Collaboration with course instructor
+  - Overall professional conduct
+
+Submission Deadline:
+  No later than 7 days after the last day of final exams.
+
+Consequences of Non-Submission:
+  - TA's renewal eligibility is placed on hold.
+  - Faculty member receives a formal reminder from Department Chair after 10 days.
+  - If not submitted within 30 days post-semester, a default "satisfactory" rating
+    is recorded, but a note is added to the faculty's administrative file.
+
+----------------------------------------------------------------
+SECTION 4: FORM SUBMISSION CHANNELS
+----------------------------------------------------------------
+Physical Submission:
+  Room 204, Administrative Wing, Engineering Building
+  Office Hours: Monday–Friday, 9:00 AM – 4:30 PM
+
+Digital Submission (preferred):
+  Portal: https://dept-portal.university.edu/ta-forms
+  Accepted formats: PDF only, max file size 5 MB
+  File naming convention: [StudentID]_[FormCode]_[Semester].pdf
+  Example: 123456789_TAF001_Fall2024.pdf
+
+Email Submission (only when portal is unavailable):
+  ta-admin@university.edu
+  Subject line format: "TA FORM SUBMISSION – [FormCode] – [Student Last Name]"
+
+----------------------------------------------------------------
+SECTION 5: RECORD RETENTION
+----------------------------------------------------------------
+All submitted TA forms are retained for a minimum of 5 years in the department's
+secure records system. TAs may request copies of their own forms at any time by
+emailing ta-admin@university.edu with their student ID.
+
+================================================================
+For questions, contact the Graduate Coordinator:
+  Name: Ms. Priya Nair
+  Email: grad.coordinator@university.edu
+  Phone: (555) 301-7842
+  Office: Room 210, Engineering Building
+================================================================

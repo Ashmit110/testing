@@ -1,0 +1,148 @@
+================================================================
+         BILL FORWARDING & REIMBURSEMENT WORKFLOWS
+         Department of Computer Science & Engineering
+         Finance & Administrative Office
+================================================================
+
+OVERVIEW
+--------
+This document describes the end-to-end procedures for bill forwarding, expense
+reimbursement, and vendor payment within the department. It applies to all faculty,
+staff, TAs, and research scholars who incur department-approved expenses. Strict
+adherence to these workflows ensures timely payments and accurate financial records.
+
+================================================================
+SECTION 1: TYPES OF REIMBURSABLE EXPENSES
+================================================================
+
+Category A — Travel Expenses (Conference/Research):
+  - Airfare (economy class only; business class requires Chair pre-approval)
+  - Hotel accommodation (maximum $180/night domestic, $250/night international)
+  - Ground transportation (taxi, rideshare, public transit with receipts)
+  - Meals per diem: $55/day domestic, $75/day international (no receipts required)
+  - Conference registration fees (receipt required)
+  - Visa application fees for international conferences
+
+Category B — Research & Lab Supplies:
+  - Equipment purchases up to $500 (above $500 requires purchase order)
+  - Software licenses (one-time or annual, department use only)
+  - Printed materials, posters for conferences
+  - Lab consumables (reagents, cables, storage media)
+
+Category C — TA-Related Expenses:
+  - Course materials for which no department copy exists (must have faculty approval)
+  - Printing costs for graded assignments (if departmental printer unavailable)
+
+Non-Reimbursable Items:
+  - Personal expenses during travel (entertainment, alcohol, personal phone calls)
+  - Expenses incurred without prior approval where approval was required
+  - Purchases from non-approved vendors for items over $200
+  - Penalties or fees incurred due to late cancellations or personal scheduling
+
+================================================================
+SECTION 2: PRE-APPROVAL REQUIREMENTS
+================================================================
+
+The following expenses require written pre-approval BEFORE the expense is incurred:
+
+  Expense Type                        Approval Authority       Threshold
+  ------------------------------------------------------------------
+  Domestic conference travel          Graduate Coordinator     Any amount
+  International conference travel     Department Chair         Any amount
+  Equipment purchase                  Department Chair         > $200
+  Software license                    IT Admin + Chair         > $100/year
+  Vendor invoice forwarding           Finance Officer          > $500
+  Guest speaker honorarium            Department Chair         Any amount
+
+How to Obtain Pre-Approval:
+  1. Submit Form FIN-PRE-01 (Pre-Approval Request) via the department portal.
+  2. Attach a brief justification and estimated cost breakdown.
+  3. Allow 5 business days for review. Urgent requests (travel within 10 days)
+     are flagged "URGENT" and reviewed within 48 hours.
+  4. Approved request generates a pre-approval code (e.g., PA-2024-0089).
+     This code must appear on all reimbursement forms submitted later.
+
+================================================================
+SECTION 3: REIMBURSEMENT SUBMISSION WORKFLOW
+================================================================
+
+Step 1 — Gather Documentation:
+  Collect all original receipts. Scanned/photographed receipts are accepted if
+  legible. Credit card statements alone are NOT accepted as proof of payment.
+  For per diem meals, no receipts are required but travel dates must be documented.
+
+Step 2 — Complete Reimbursement Form (Form FIN-REIMB-01):
+  Fields required:
+    - Claimant name, student/employee ID, department
+    - Pre-approval code (if applicable)
+    - Itemized list of expenses with dates, amounts, and purpose
+    - Bank account details for direct deposit (first submission only)
+    - Claimant signature and date
+
+Step 3 — Supervisor Sign-Off:
+  Faculty claiming their own expenses: signed by Department Chair.
+  Students/TAs: signed by supervising faculty member.
+  Staff: signed by department administrator.
+
+Step 4 — Submit to Finance Office:
+  Physical: Room 115, Administrative Wing (Mon–Fri, 9 AM – 3 PM)
+  Digital:  finance.cse@university.edu (PDF only, named as
+            [EmployeeID]_REIMB_[YYYYMM].pdf)
+
+Step 5 — Finance Review (3–5 business days):
+  Finance officer verifies pre-approval, checks receipts, and confirms budget
+  availability. If documents are incomplete, the claimant is notified within 2
+  business days with a specific list of missing items.
+
+Step 6 — Payment Processing:
+  Approved claims are processed through university payroll.
+  Direct deposit: 7–10 business days after finance approval.
+  Check (for guests/non-employees): 10–15 business days.
+
+================================================================
+SECTION 4: BILL FORWARDING PROCEDURE (VENDOR INVOICES)
+================================================================
+
+When the department receives a vendor invoice (e.g., for equipment, services,
+or subscriptions), the following forwarding workflow applies:
+
+  Step 1: Receiving staff logs invoice in the Vendor Invoice Register (VIR)
+          within 24 hours of receipt. Invoice is assigned a VIR number.
+  Step 2: Invoice forwarded to the relevant faculty/project PI via email with
+          VIR number in subject. PI must confirm receipt within 2 business days.
+  Step 3: PI reviews the invoice against the purchase order (PO) or agreement.
+          If discrepancy exists, PI contacts vendor directly and informs Finance.
+  Step 4: PI returns the invoice with written approval (signature on printed copy
+          or email confirmation) to Finance within 5 business days.
+  Step 5: Finance submits payment request to university accounts payable.
+          Standard payment terms: Net 30 from invoice date.
+  Step 6: Payment confirmation sent to vendor and copy archived in departmental
+          financial records.
+
+Late Payment Policy:
+  Invoices not approved by the PI within 5 business days are escalated to the
+  Department Chair. Repeated delays may result in vendor credit holds affecting
+  the entire department.
+
+================================================================
+SECTION 5: DISPUTE & APPEALS PROCESS
+================================================================
+
+If a reimbursement claim is partially or fully denied:
+  - Claimant receives written denial with specific reason(s) within 3 business days.
+  - Claimant may appeal within 15 calendar days by submitting Form FIN-APPEAL-01
+    with additional documentation supporting the claim.
+  - Appeals are reviewed by the Finance Committee (Finance Officer + Dept. Chair)
+    within 10 business days.
+  - Finance Committee decision is final at the department level. University-level
+    appeals may be filed with the Provost's Office within 30 days of the
+    department's final decision.
+
+================================================================
+SECTION 6: KEY CONTACTS
+================================================================
+  Finance Officer:       Ms. Anita Shenoy     | finance.cse@university.edu
+  Department Chair:      Prof. Ramesh Iyer    | chair.cse@university.edu
+  Accounts Payable (Univ): ap@university.edu  | Ext. 4400
+
+================================================================

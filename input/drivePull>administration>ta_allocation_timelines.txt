@@ -1,0 +1,123 @@
+================================================================
+         TEACHING ASSISTANT ALLOCATION TIMELINES & PROCEDURES
+         Department of Computer Science & Engineering
+         Academic Year 2024-2025
+================================================================
+
+OVERVIEW
+--------
+TA allocation is a structured, semester-by-semester process managed by the
+Graduate Coordinator in consultation with course faculty and the Department Chair.
+This document provides a detailed timeline of all allocation activities, deadlines,
+and decision points for both Fall and Spring semesters.
+
+================================================================
+PART A: FALL SEMESTER ALLOCATION TIMELINE
+================================================================
+
+PHASE 1 — FACULTY NEEDS ASSESSMENT (March 1 – March 20)
+---------------------------------------------------------
+Action Items:
+  - March 1:  Department Chair sends "TA Needs Request" email to all faculty
+              teaching in Fall. Faculty must respond using Form FA-01.
+  - March 10: Deadline for faculty to submit Form FA-01 indicating:
+              * Course name and expected enrollment
+              * Number of TA positions requested (Full or Half)
+              * Preferred qualifications (e.g., must have completed CS 6010)
+              * Special duties (grading-only vs. lab-support vs. recitation-lead)
+  - March 15: Graduate Coordinator compiles all requests and cross-checks with
+              available TA budget from department finance office.
+  - March 20: Preliminary TA budget allocation draft is shared with Department Chair
+              for approval.
+
+PHASE 2 — TA APPLICANT POOL COMPILATION (March 21 – April 10)
+--------------------------------------------------------------
+Action Items:
+  - March 21: TA Application portal opens for eligible students.
+  - Eligible students: All PhD students in good standing + MS students with GPA ≥ 3.5
+                       + Undergraduate Honors students (for select courses only)
+  - Application requirements:
+      * Statement of interest (max 500 words)
+      * Unofficial transcript
+      * List of up to 5 preferred courses with justification
+      * Current advisor's email (auto-approval notification sent)
+  - April 5:  TA Application portal closes. No late submissions accepted.
+  - April 10: Graduate Coordinator finalizes the applicant pool and shares with
+              relevant faculty for review.
+
+PHASE 3 — MATCHING & ASSIGNMENT (April 11 – April 30)
+------------------------------------------------------
+Process:
+  - Faculty review their shortlisted applicants and rank their top 3 candidates.
+  - Graduate Coordinator uses a ranked matching algorithm to resolve conflicts
+    where multiple faculty request the same student.
+  - Priority rules for conflicts:
+      1. PhD students in their 2nd year or beyond are prioritized over MS students.
+      2. Students whose advisor is also the course instructor receive lower priority
+         (to avoid conflicts of interest in grading).
+      3. Students who have previously TAed the course successfully get priority.
+  - April 25: Draft allocation list circulated to all faculty for 5-day review.
+  - April 30: Final allocation list approved by Department Chair.
+
+PHASE 4 — NOTIFICATION & ONBOARDING (May 1 – May 20)
+-----------------------------------------------------
+  - May 1:   Offer emails sent to all selected TAs from ta-admin@university.edu.
+             TAs must accept or decline within 5 business days.
+  - May 8:   Deadline for TA acceptance. Declined offers trigger re-allocation from
+             waitlist.
+  - May 10:  Appointment forms (TAF-001) generated and sent to both TA and faculty.
+  - May 15:  Signed appointment forms due back to Graduate Coordinator.
+  - May 20:  HR payroll enrollment initiated. TAs completing first appointment must
+             attend mandatory onboarding session (see below).
+
+MANDATORY TA ONBOARDING SESSION (held annually in late May):
+  - Topics covered: Grading ethics, academic integrity policies, use of department
+    LMS (Canvas), disability accommodation procedures, and emergency contacts.
+  - Duration: 3 hours
+  - Attendance is compulsory for first-time TAs. Returning TAs are encouraged to attend
+    the 1-hour refresher version.
+
+================================================================
+PART B: SPRING SEMESTER ALLOCATION TIMELINE
+================================================================
+
+The Spring allocation process mirrors Fall, with the following adjusted dates:
+
+  Phase 1 — Faculty Needs Assessment:  October 1 – October 20
+  Phase 2 — TA Applicant Pool:         October 21 – November 10
+  Phase 3 — Matching & Assignment:     November 11 – November 30
+  Phase 4 — Notification & Onboarding: December 1 – December 20
+
+Note: Due to the winter break, all onboarding for Spring TAs occurs in the first
+week of January before classes begin.
+
+================================================================
+PART C: SPECIAL ALLOCATION SCENARIOS
+================================================================
+
+Mid-Semester Emergency Allocation:
+  If a TA resigns or becomes ineligible mid-semester, the faculty supervisor must
+  immediately notify the Graduate Coordinator. An emergency allocation request
+  (Form EA-01) must be submitted within 48 hours. Resolution timeline: 7–10
+  business days.
+
+Summer Session TA Allocation:
+  Summer TA needs are assessed in February. Only PhD students are eligible for
+  Summer TA positions. The allocation is handled informally by the Graduate
+  Coordinator with Department Chair approval, without a formal application process.
+
+TA Overload Requests:
+  A student may hold at most one Full TA position (20 hrs/week). Requests to hold
+  two Half TA positions simultaneously must be approved by the student's academic
+  advisor AND the Graduate Coordinator. Such overloads are granted only in
+  exceptional circumstances.
+
+================================================================
+PART D: KEY CONTACTS FOR ALLOCATION
+================================================================
+  Graduate Coordinator:  Ms. Priya Nair        | grad.coordinator@university.edu
+  Department Chair:      Prof. Ramesh Iyer      | chair.cse@university.edu
+  HR Liaison:            Mr. David Okonkwo      | hr.cse@university.edu
+  Finance Office:        Ms. Anita Shenoy       | finance.cse@university.edu
+
+================================================================

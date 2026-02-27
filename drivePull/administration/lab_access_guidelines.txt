@@ -1,0 +1,169 @@
+================================================================
+         LAB ACCESS GUIDELINES & SAFETY REGULATIONS
+         Department of Computer Science & Engineering
+         Engineering Building — Rooms 301, 305, 310, 315 (Grad Labs)
+         Rooms 120, 122 (Undergraduate Computing Labs)
+================================================================
+
+OVERVIEW
+--------
+This document specifies the policies, procedures, and safety requirements governing
+access to all departmental computing and research labs. These guidelines apply to
+all students, faculty, TAs, research assistants, and authorized visitors. Violations
+may result in temporary or permanent revocation of lab access privileges.
+
+================================================================
+SECTION 1: CATEGORIES OF LAB ACCESS
+================================================================
+
+Level 1 — General Access (Undergraduate Computing Labs: Rooms 120, 122):
+  Eligible users: All enrolled students of the department.
+  Access hours:   Monday – Saturday: 7:00 AM – 11:00 PM
+                  Sunday: 10:00 AM – 8:00 PM
+  Access method:  University student ID card (RFID swipe at door).
+  Supervision:    A lab monitor (student worker) is on duty during all open hours.
+
+Level 2 — Restricted Access (Graduate Research Labs: Rooms 301, 305):
+  Eligible users: MS and PhD students with an active research assignment + TAs
+                  assigned to courses using these labs.
+  Access hours:   24/7 card access.
+  Access method:  Physical key + RFID card (dual authentication required after 9 PM).
+  How to obtain:  Complete Form LA-01 (Lab Access Request), obtain PI/supervisor
+                  signature, and submit to Room 204 (Admin Office).
+  Processing time: 3 business days for standard requests.
+
+Level 3 — High-Security Lab Access (GPU Cluster Room 310, Robotics Lab 315):
+  Eligible users: PhD students working on approved grants + faculty + authorized
+                  research staff.
+  Access hours:   24/7, but solo access between 10 PM – 6 AM is prohibited.
+                  At least 2 authorized persons must be present during these hours.
+  Access method:  Biometric scanner (fingerprint) + RFID card.
+  How to obtain:  Written request from faculty PI, submitted to Department Chair.
+                  Background check required (university policy). Processing: 5–7
+                  business days.
+  Additional requirement: Mandatory lab safety orientation (2 hours) before
+                  first access is granted.
+
+================================================================
+SECTION 2: LAB ACCESS REQUEST PROCEDURE (FORM LA-01)
+================================================================
+
+Who submits: The student or TA requiring access.
+
+Required information on Form LA-01:
+  - Full name and student/employee ID
+  - Level of access requested (Level 1, 2, or 3)
+  - Specific room number(s) requested
+  - Purpose of access (coursework / research project / TA duties)
+  - Expected access duration (semester / academic year / grant period)
+  - Supervising faculty or PI name and email (auto-notification sent upon submission)
+  - Agreement to abide by all lab policies (signature required)
+
+Submission:
+  Physical: Admin Office, Room 204
+  Digital: dept-portal.university.edu/lab-access
+
+Renewals:
+  Access is semester-based for students. Renewals must be submitted 2 weeks before
+  the semester ends. Access automatically expires 7 days after the semester end date
+  unless renewed. PhD students on multi-year grants may request annual renewals.
+
+Access Revocation:
+  Lab access may be revoked at any time for policy violations, expiration of
+  enrollment, or loss of TA/RA appointment. The student is notified by email
+  from the Lab Administrator.
+
+================================================================
+SECTION 3: LAB USE RULES & CONDUCT
+================================================================
+
+General Rules (All Levels):
+  1. No food or beverages near computing equipment. Sealed water bottles are
+     permitted at personal desks only.
+  2. No personal equipment (external hard drives, USB hubs) may be connected to
+     lab machines without written permission from the Lab Administrator.
+  3. Installation of unauthorized software is strictly prohibited. All software
+     requests must be submitted via Form SW-REQ-01 (see department portal).
+  4. Users must log out of all sessions before leaving. Machines left logged in
+     for more than 15 minutes will be automatically locked and the account flagged.
+  5. Do not leave personal belongings unattended. The department is not responsible
+     for lost or stolen items. Lockers are available near Room 120 (request key
+     from admin office).
+  6. Noise must be kept to a minimum. Group discussions requiring voice communication
+     should be moved to the designated collaboration areas (Room 108 or 210).
+
+Research Lab-Specific Rules (Level 2 & 3):
+  1. Each user is assigned a specific workstation. Using another user's assigned
+     machine requires written permission from the Lab Administrator.
+  2. All research data must be backed up to the department's network storage
+     (NAS) at least weekly. The department is not liable for data lost due to
+     hardware failure on local machines.
+  3. High-performance computing jobs (GPU cluster) must be submitted through the
+     job queue system (SLURM). Direct use of GPUs without the scheduler is
+     prohibited and will result in immediate suspension of access.
+  4. Any hardware fault, damage, or security concern must be reported to the Lab
+     Administrator within 24 hours via the issue tracker:
+     dept-portal.university.edu/lab-issues
+
+================================================================
+SECTION 4: SAFETY REGULATIONS
+================================================================
+
+Fire & Emergency:
+  - Know the location of the nearest fire extinguisher (mounted at each lab entrance)
+    and emergency exit (marked with green signage).
+  - In case of fire, evacuate immediately and call 911 + Security (Ext. 0).
+  - Do not use elevators during evacuation.
+  - Muster point: Parking Lot B, east side of Engineering Building.
+
+Electrical Safety:
+  - Do not overload power strips. Each strip is rated for 15A maximum.
+  - Report frayed cables, exposed wires, or burning smells immediately.
+  - Portable space heaters are strictly prohibited in all labs.
+
+Ergonomics:
+  - Adjustable chairs and monitor stands are available in all labs. Contact the
+    Lab Administrator if equipment adjustments are needed.
+  - Recommended session breaks: 5 minutes every hour for eye strain reduction.
+
+================================================================
+SECTION 5: VISITOR & GUEST ACCESS
+================================================================
+
+External visitors (collaborators, visiting researchers) may be granted temporary
+lab access under the following conditions:
+  - Sponsoring faculty submits Form LA-GUEST-01 at least 3 business days in advance.
+  - Visitor access is limited to Level 1 or Level 2 only.
+  - Maximum duration: 2 weeks per visit. Extensions require Department Chair approval.
+  - Visitor must sign the Lab Usage Agreement upon first entry.
+  - Visitor must always be accompanied by a Level 2 or Level 3 authorized user
+    in graduate research labs.
+
+================================================================
+SECTION 6: PRINTING & EQUIPMENT USAGE
+================================================================
+
+Printing:
+  - Each student receives a printing quota of 200 pages/semester (black & white).
+  - Color printing: 50 pages/semester. Additional pages: $0.05/page (black & white),
+    $0.20/page (color). Charged to student account.
+  - Large-format printing (posters): Submit request Form PRINT-01 at least
+    72 hours in advance. Cost: $15/sq. ft. for gloss, $10/sq. ft. for matte.
+
+Equipment Borrowing:
+  - Cameras, tripods, Raspberry Pi kits, Arduino sets, and other portable equipment
+    may be borrowed for up to 7 days. Submit Form EQUIP-BORROW-01.
+  - Overdue equipment results in a hold on course registration.
+  - Lost or damaged equipment must be reported immediately. Replacement cost
+    will be charged to the student's university account.
+
+================================================================
+SECTION 7: KEY CONTACTS
+================================================================
+  Lab Administrator:     Mr. Kevin Zhang         | lab.admin@university.edu | Ext. 6301
+  IT Support:            helpdesk@university.edu | Ext. 6200
+  Security (Emergency):  Ext. 0 | (555) 911-0000
+  Department Chair:      Prof. Ramesh Iyer       | chair.cse@university.edu
+  Admin Office:          Room 204, Mon–Fri 9 AM–4:30 PM
+
+================================================================
